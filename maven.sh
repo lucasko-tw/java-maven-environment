@@ -1,0 +1,32 @@
+
+mvn dependency:get -DgroupId=commons-lang -DartifactId=commons-lang -Dversion=2.2
+mvn dependency:get -DgroupId=org.springframework -DartifactId=spring-core -Dversion=4.3.8.RELEASE
+mvn dependency:get -DgroupId=org.springframework -DartifactId=spring-webmvc -Dversion=4.3.8.RELEASE
+mvn dependency:get -DgroupId=org.springframework -DartifactId=spring-orm -Dversion=4.3.8.RELEASE
+mvn dependency:get -DgroupId=org.springframework -DartifactId=org.springframework.orm -Dversion=4.3.8.RELEASE
+mvn dependency:get -DgroupId=mysql -DartifactId=mysql-connector-java -Dversion=5.1.30
+mvn dependency:get -DgroupId=org.springframework.security -DartifactId=spring-security-web -Dversion=3.2.1.RELEASE
+mvn dependency:get -DgroupId=org.springframework.security -DartifactId=spring-security-config -Dversion=3.2.1.RELEASE
+mvn dependency:get -DgroupId=org.springframework.security -DartifactId=spring-security-taglibs -Dversion=3.2.1.RELEASE
+mvn dependency:get -DgroupId=org.hibernate -DartifactId=hibernate-validator -Dversion=4.2.0.Final
+mvn dependency:get -DgroupId=org.hibernate -DartifactId=hibernate-core -Dversion=4.2.11.Final
+mvn dependency:get -DgroupId=javassist -DartifactId=javassist -Dversion=3.12.1.GA
+mvn dependency:get -DgroupId=org.aspectj -DartifactId=aspectjrt -Dversion=1.6.10		
+mvn dependency:get -DgroupId=org.slf4j -DartifactId=slf4j-api -Dversion=1.6.6
+mvn dependency:get -DgroupId=org.slf4j -DartifactId=jcl-over-slf4j -Dversion=1.6.6
+mvn dependency:get -DgroupId=org.slf4j -DartifactId=slf4j-log4j12 -Dversion=1.6.6
+mvn dependency:get -DgroupId=javax.inject -DartifactId=javax.inject -Dversion=1
+mvn dependency:get -DgroupId=javax.servlet -DartifactId=servlet-api -Dversion=2.5
+mvn dependency:get -DgroupId=javax.servlet.jsp -DartifactId=jsp-api -Dversion=2.1
+mvn dependency:get -DgroupId=javax.servlet -DartifactId=jstl -Dversion=1.2
+mvn dependency:get -DgroupId=junit -DartifactId=junit -Dversion=4.7
+mvn dependency:get -DgroupId=org.json -DartifactId=json -Dversion=20131018
+mvn dependency:get -DgroupId=org.elasticsearch -DartifactId=elasticsearch -Dversion=5.2.2
+mvn dependency:get -DgroupId=commons-fileupload -DartifactId=commons-fileupload -Dversion=1.2.2
+mvn dependency:get -DgroupId=commons-io -DartifactId=commons-io -Dversion=1.3.2		
+mvn dependency:get -DgroupId=org.quartz-scheduler -DartifactId=quartz -Dversion=2.2.1  
+mvn dependency:get -DgroupId=org.quartz-scheduler -DartifactId=quartz-jobs -Dversion=2.2.1
+mvn dependency:get -DgroupId=org.xerial -DartifactId=sqlite-jdbc -Dversion=3.8.11.2  		  
+mvn dependency:get -DgroupId=net.kemitix -DartifactId=sqlite-dialect -Dversion=0.1.0  		
+mvn dependency:get -DgroupId=commons-dbcp -DartifactId=commons-dbcp -Dversion=1.2.2
+
