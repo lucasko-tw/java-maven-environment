@@ -29,4 +29,4 @@ mvn dependency:get -DgroupId=org.quartz-scheduler -DartifactId=quartz-jobs -Dver
 mvn dependency:get -DgroupId=org.xerial -DartifactId=sqlite-jdbc -Dversion=3.8.11.2  		  
 mvn dependency:get -DgroupId=net.kemitix -DartifactId=sqlite-dialect -Dversion=0.1.0  		
 mvn dependency:get -DgroupId=commons-dbcp -DartifactId=commons-dbcp -Dversion=1.2.2
-
+mvn dependency:get -DgroupId=org.apache.maven.plugins -DartifactId=maven-compiler-plugin -Dversion=3.1
