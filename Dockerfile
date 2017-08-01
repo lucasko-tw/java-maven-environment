@@ -26,5 +26,5 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 #RUN /tmp/maven.sh
 
-
+WORKDIR /tmp
 
